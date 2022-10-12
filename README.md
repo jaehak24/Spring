@@ -29,3 +29,8 @@ Interface segregation Principle
 
 Dependency inversion Principle
 프로그래머는 추상화에 의존해야지 구체화에 의존하면 안된다.
+
+
+# IoC(Inversion Of Control)
+기존 개발 프로세스에서 라이브러리를 통해서 개발하면서 흐름의 주도권은 개발자에게 있었다.
+하지만 Spring에서는 이 흐름이 Spring에 있다. 
