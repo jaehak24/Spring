@@ -1,4 +1,5 @@
 # Checked Exception
+
 발생한 예외를 잡아서 체크한 후에 해당 예외를 복구|| 회피 처리
 ex>classNotFoundException
 
