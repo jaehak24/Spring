@@ -25,8 +25,13 @@ eX> NullpotinException, Arrayindexoutofbounds
 에러 처리 핸들러 메서드가 늘어납니다. 
 
 
-# @RestContollerAdviec를 사용한 예외 처리 공통화
+# @RestContollerAdvice를 사용한 예외 처리 공통화
 
 특정 클래스에 @RestControllAdvice 애너테이션을 추가하면 여러개의 Contoller 클래스에서 
 @ExceptionHandler, @InitBinder 또는 @ModelAttribute가 추가된 데서드를 공유해서 사용할 수 있다.
 -->예외 처리를 공통화 할 수 있다.
+
+이를 위해서는 Exception 처리를 위한 각각의 예외에 대한 데이터를 전역 처리해야 할 필요가 있는데 이를 위해서 
+사전에 별도의 전역 클래스로 정의함으로써 Controller에서의 중복을 피할 수 있습니다.
+
+
